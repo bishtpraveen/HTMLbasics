@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignmentWork</title>
+
+
+    <style>
+
+#box1 #box2{
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+}
+#box1{
+        position: relative;
+    
+        width: 400px;
+        height: 300px;
+        background: linear-gradient( darkred 70%, red );
+        margin: 0 auto;
+        }
+    
+    #box2{
+        position: absolute;
+        box-sizing: border-box;
+        
+width: 100%;
+height: 50%;
+background-color:red;
+background:linear-gradient( red 99%);
+
+}
+h1,h2{
+    color: white;
+}
+form{
+    margin-left: 5px;
+}
+
+@media screen and (min-width: 715px){
+    #box2{
+        width: 100%;
+       /* background: linear-gradient( 25deg ,pink, green, yellow);*/
+      /*  background: radial-gradient(red, pink, violet,blue,indigo);*/
+      background: radial-gradient(white 50%, transparent 50%);
+    }
+    #box1{
+        background: linear-gradient(red 99%, darkred);
+    }
+    
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <form action="">
+<h1>Welcome User</h1>
+<h2>Email</h2>
+<input type="email" value="Enter email" style="width: 90%; border-radius: 5px; font-size: 20px;">
+<h2>Password</h2>
+<input type="password" value="Enter password" style="width: 90%; border-radius: 5px; font-size: 20px;">
+<input type="submit" value="Login" style="margin-top: 2px; margin-left: 76%;
+margin-top: 5px;
+background-color: chartreuse;
+border-radius: 4px;">
+<h4>
+</h4>
+ </form>
+
+        <div id="box2">
+</div>
+</body>
+</html>

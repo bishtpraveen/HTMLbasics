@@ -1,0 +1,41 @@
+.title{
+
+height: 20vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.images{
+
+    display: flex;
+    justify-content: space-around;
+}
+.image-container{
+    height: 500px;
+    width: 800px;
+    position: relative;
+    border: 5px solid brown;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+.transition-image{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+   transition: opacity 0.0005s ease-in-out ;
+
+}
+.transition-image:hover{
+    opacity: 1;
+    
+    left: 0px;
+    
+
+    
+}
+.transition-image:hover
+
+

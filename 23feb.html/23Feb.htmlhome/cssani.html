@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 140px;
+            height: 140px;
+            background-color: gray;
+            animation-name: Mine;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            margin-left: 20px;
+            
+            
+        }
+        @keyframes Mine{
+            0%{background-color: crimson;margin-top: 0px; transform: rotate(0deg);}
+            10%{background-color: purple;margin-top: 100px; transform: rotate(100deg);}
+            20%{background-color: green;margin-top: 200px; transform: rotate(200deg)}
+            30%{background-color: black;margin-top: 300px; transform: rotate(300deg)}
+            40%{background-color: blue;margin-top: 400px; transform: rotate(400deg)}
+
+            50%{background-color: brown;margin-top: 500px; transform: rotate(500deg)}
+
+            60%{background-color: orangered;margin-top: 400px; transform: rotate(400deg)}
+            70%{background-color:rgb(148, 20, 41);margin-top: 300px; transform: rotate(300deg)}
+            80%{background-color: darkgoldenrod;margin-top: 200px; transform: rotate(200deg)}
+            90%{background-color: red;margin-top: 100px; transform: rotate(100deg)}
+            100%{background-color: navy;margin-top: 0px; transform: rotate(0deg)}
+            
+
+        }
+    </style>
+</head>
+<body style="background-color: lightsalmon;">
+
+    <h2 style="margin-left: 570px; color:black;">MY ANIMATION</h2>
+    <h3 style="margin-left: 560px; font-size: large; color: white;">Here is the transform rotate</h3>
+    <div class="box"></div>
+</body>
+</html>

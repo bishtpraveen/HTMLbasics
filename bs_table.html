@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bootstrap Table</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+<style>
+   
+   table{
+       width: 50%;
+       margin: auto;
+       text-align: center;
+       border-collapse: collapse;
+   }
+   thead,td,th{
+       border: 1px solid blue ;
+   }
+
+ 
+
+</style>
+
+</head>
+<body>
+  <table class="table table-dark">
+
+    <thead class="thead thead-light">
+<tr>
+    <th>Name</th>
+    <th>Class</th>
+    <th>Roll No.</th>
+</tr>
+
+    </thead>
+    <tbody>
+        <tr>
+
+            <td>Praveen</td>
+            <td>last year</td>
+            <td>17bt34</td>
+        </tr>
+        <tr>
+
+            <td>Ajay</td>
+            <td>last year</td>
+            <td>17bt34</td>
+        </tr>
+        <tr>
+
+            <td>kartik</td>
+            <td>last year</td>
+            <td>17bt34</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>This was of End name </th>
+            <th>this was yeaar</th>
+            <th>this was roll n.</th>
+        </tr>
+        
+    </tfoot>
+  </table>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+       <th>Sr.No.</th>
+       <th>Fathers name</th>
+       <th>Mothers name</th>
+       </tr>
+        </thead>
+        <tbody> 
+          <tr>
+              <td>1</td>
+              <td>Kartik</td>
+              <td>Sharma</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Kartik</td>
+            <td>Sharma</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Kartik</td>
+            <td>Sharma</td>
+        </tr>
+        </tbody>
+        
+        <tfoot>
+
+        </tfoot>
+    </table>
+<table>
+    <thead>
+        <th>praveen</th>
+        <th>kumar</th>
+    <th>kartik</th>
+    <th>sharma</th>
+    </thead>
+
+    <tbody>
+        <tr>
+        <td>kullu</td>
+        <td>manali</td>
+        <td>shimla</td>
+        <td>mandi</td>
+        </tr>
+        <tr>
+            <td colspan="3">kullu</td>
+            <td>manali</td>
+            <td>shimla</td>
+            <td>mandi</td>
+            </tr>
+            <tr>
+                <td>kullu</td>
+                <td>manali</td>
+                <td>shimla</td>
+                <td>mandi</td>
+                </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: gray;
+            animation-name: Mine;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            margin-left: 20px;
+            
+            
+        }
+        .box1{
+            width: 150px;
+            height: 150px;
+            background-color: gray;
+            animation-name: Mine;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            margin-left: 200px;
+            
+            
+        }
+
+        @keyframes Mine{
+            0%{background-color: crimson;margin-top: 0px; transform: rotate(0deg);}
+            10%{background-color: purple;margin-top: 100px; transform: rotate(100deg);}
+            20%{background-color: green;margin-top: 200px; transform: rotate(200deg)}
+            30%{background-color: black;margin-top: 300px; transform: rotate(300deg)}
+            40%{background-color: blue;margin-top: 400px; transform: rotate(400deg)}
+
+            50%{background-color: brown;margin-top: 500px; transform: rotate(500deg)}
+
+            60%{background-color: orangered;margin-top: 400px; transform: rotate(400deg)}
+            70%{background-color:pink;margin-top: 300px; transform: rotate(300deg)}
+            80%{background-color: darkgoldenrod;margin-top: 200px; transform: rotate(200deg)}
+            90%{background-color: red;margin-top: 100px; transform: rotate(100deg)}
+            100%{background-color: navy;margin-top: 0px; transform: rotate(0deg)}
+            
+
+        }
+    </style>
+</head>
+<body>
+    <p>MY ANIMATION</p>
+    <div class="box"></div>
+    <div class="box1"></div>
+</body>
+</html>

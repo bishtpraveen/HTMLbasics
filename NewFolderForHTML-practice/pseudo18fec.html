@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        #mytxt{
+            color: cadetblue;
+        }
+        #mytxt::before {
+            content: 'NOTE';
+            font-size: 115px;
+
+
+        }
+        #mytxt::after {
+            content: 'SYO ,mAN';
+
+        }
+        #mytxt::first-letter{
+            font-size: 100px;
+        }
+        #mytxt::selection{
+            background-color: crimson;
+        }
+        #mytxt::first-line{
+            background: darkturquoise;
+            color: firebrick;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <p id="mytxt">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque magnam, non maxime rem temporibus laboriosam eligendi ad. Porro obcaecati 
+        id doloremque sunt distinctio nihil, cupiditate molestiae quia ex deleniti.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iusto iure debitis quibusdam eveniet veniam voluptatum repellat sapiente, ipsum molestiae, accusantium, ullam sit doloribus magni possimus dolorum dolore. Ad, suscipit.
+
+    </p>
+    
+</body>
+</html>
